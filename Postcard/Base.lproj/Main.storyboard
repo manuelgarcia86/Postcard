@@ -89,6 +89,15 @@
                                     <rect key="frame" x="16" y="72" width="224" height="63"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNy-C4-0pe">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="153" width="136" height="21"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Wi-Bw-lbV">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -111,6 +120,7 @@
                                 <exclude reference="vBQ-n1-fTr"/>
                                 <exclude reference="JJR-b7-rWh"/>
                                 <exclude reference="Saa-xc-hRM"/>
+                                <exclude reference="bNy-C4-0pe"/>
                                 <exclude reference="9Wi-Bw-lbV"/>
                             </mask>
                         </variation>
@@ -120,6 +130,7 @@
                                 <include reference="vBQ-n1-fTr"/>
                                 <include reference="JJR-b7-rWh"/>
                                 <include reference="Saa-xc-hRM"/>
+                                <include reference="bNy-C4-0pe"/>
                                 <include reference="9Wi-Bw-lbV"/>
                             </mask>
                         </variation>
@@ -129,6 +140,7 @@
                         <outlet property="enterName" destination="vBQ-n1-fTr" id="MIO-0j-D0r"/>
                         <outlet property="mailButton" destination="9Wi-Bw-lbV" id="C8F-2q-wm4"/>
                         <outlet property="messageLabel" destination="Saa-xc-hRM" id="ZCJ-ia-oDW"/>
+                        <outlet property="nameLabel" destination="bNy-C4-0pe" id="iKX-FK-L2r"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
